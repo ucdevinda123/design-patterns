@@ -10,3 +10,4 @@ Implementation of design patterns (Implementations using Java and Kotlin)
   
   ![image](https://user-images.githubusercontent.com/4921099/118596977-aabbf700-b7de-11eb-9f32-7a445e40ffb1.png)
 
+2.)State Pattern : The state pattern is a behavioral software design pattern that allows an object to alter its behavior when its internal state changes.
