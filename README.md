@@ -3,8 +3,7 @@ Implementation of design patterns (Implementations using Java and Kotlin)
 
  #### 1.)Momento Pattern : 
   Used in managing undo feature of an application
-    *  [Test Case](https://github.com/ucdevinda123/design-patterns/blob/master//src/test/java/com/designpatterns/dev/behavioral/visitor/TestVisitorPatternJava.java)   
-      
+ 
     Design Diagram of the implementation  - In theoritacal implementation we can say
          Editor - Originator
          EditorState - Momento
