@@ -3,7 +3,8 @@ Implementation of design patterns (Implementations using Java and Kotlin)
 
  #### 1.)Momento Pattern : 
   Used in managing undo feature of an application
-
+    *  [Test Case](https://github.com/ucdevinda123/design-patterns/blob/master//src/test/java/com/designpatterns/dev/behavioral/visitor/TestVisitorPatternJava.java)   
+      
     Design Diagram of the implementation  - In theoritacal implementation we can say
          Editor - Originator
          EditorState - Momento
@@ -44,7 +45,12 @@ Implementation of design patterns (Implementations using Java and Kotlin)
  #### 4.)Visitor Pattern 
    Way of separating an algorithm from an object structure on which it operates.
    Most suitable for introducing new operations to an existing platform
-                      
+    
+  *  [Java Implementation](https://github.com/ucdevinda123/design-patterns/blob/main/src/main/java/com/designpatterns/dev/behavioral/visitor/java/)   
+  *  [Kotlin Implementation](https://github.com/ucdevinda123/design-patterns/blob/main/src/main/java/com/designpatterns/dev/behavioral/visitor/kotlin/)   
+            
+  *  [Test Case](https://github.com/ucdevinda123/design-patterns/blob/master/src/test/java/com/designpatterns/dev/behavioral/visitor/TestVisitorPatternJava.java)   
+                            
       Design Diagram of the implementation  - Let's take a Html Document as an example here
                  HtmlElement -> Interface to child html elements it has this method : execute(operation : Operations) : String
                      AnchorElement -> Child ui element
