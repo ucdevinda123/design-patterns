@@ -1,7 +1,8 @@
 # design-patterns
 Implementation of design patterns (Implementations using Java and Kotlin)
 
-1.)Momento Pattern :  Used in managing undo feature of an application
+ #### 1.)Momento Pattern : 
+  Used in managing undo feature of an application
 
     Design Diagram of the implementation  - In theoritacal implementation we can say
          Editor - Originator
@@ -10,7 +11,8 @@ Implementation of design patterns (Implementations using Java and Kotlin)
   
   ![image](https://user-images.githubusercontent.com/4921099/118596977-aabbf700-b7de-11eb-9f32-7a445e40ffb1.png)
 
-2.)State Pattern : The state pattern is a behavioral software design pattern that allows an object to alter its behavior when its internal state changes.
+ #### 2.)State Pattern : 
+ The state pattern is a behavioral software design pattern that allows an object to alter its behavior when its internal state changes.
 
     Design Diagram of the implementation  - In theoritacal implementation we can say
          Canvas - Context
@@ -21,7 +23,8 @@ Implementation of design patterns (Implementations using Java and Kotlin)
   ![SelectionTool](https://user-images.githubusercontent.com/4921099/118616021-e614f080-b7f3-11eb-89e6-144c0afc89b2.PNG)
   
   
-3.)Chain of responsibility Pattern : A source of command objects and a series of processing objects. It allows to crete chain of jobs
+ #### 3.)Chain of responsibility Pattern : 
+   A source of command objects and a series of processing objects.It allows to crete chain of jobs
    here I took the use case of a web server
     
     Design Diagram of the implementation  - In theoritacal implementation we can say
@@ -34,3 +37,18 @@ Implementation of design patterns (Implementations using Java and Kotlin)
              This proves  SOLID
                           O -> Open for extention (Classes should open for extention and close for modifications) this is a great example for tha
  
+ #### 4.)Visitor Pattern 
+   Way of separating an algorithm from an object structure on which it operates.
+   Most suitable for introducing new operations to an existing platform
+                      
+      Design Diagram of the implementation  - Let's take a Html Document as an example here
+                 HtmlElement -> Interface to child html elements it has this method : execute(operation : Operations) : String
+                     AnchorElement -> Child ui element
+                     HeaderElement -> Child ui element  
+                     
+                 Operation -> Interface to apply operations to each element implements  apply(htmlElement : HtmlElement)
+                     HighlightOperations -> apply(htmlElement : HtmlElement) : String
+                     TextHintingOperation -> apply(htmlElement : HtmlElement) : String
+                     
+      This will again proves Open for extention principle. Imagine in future if you want to add a new  operation just need to add a sub classs that implements operations interface
+      However in this example we can say html ui elements are more stable and we don't have infinite no of elements (We know what's the elements of tags exists) still so this pattern is more usful.                  
