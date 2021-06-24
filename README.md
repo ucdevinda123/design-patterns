@@ -33,4 +33,9 @@ Implementation of design patterns (Implementations using Java and Kotlin)
              At any given time user remove operations from the chain. And you don't need to update Webserver class.
              This proves  SOLID
                           O -> Open for extention (Classes should open for extention and close for modifications) this is a great example for tha
+                          
+                          
+ ![image (1)](https://user-images.githubusercontent.com/4921099/123273354-28d59100-d535-11eb-9855-999d909e2f13.png)
+                         
+                          
  
