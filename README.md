@@ -12,6 +12,13 @@ Implementation of design patterns (Implementations using Java and Kotlin)
   
   ![image](https://user-images.githubusercontent.com/4921099/118596977-aabbf700-b7de-11eb-9f32-7a445e40ffb1.png)
 
+  *  [Java Implementation](https://github.com/ucdevinda123/design-patterns/blob/main/src/main/java/com/designpatterns/dev/behavioral/momento/java/)   
+  *  [Kotlin Implementation](https://github.com/ucdevinda123/design-patterns/blob/main/src/main/java/com/designpatterns/dev/behavioral/momento/kotlin/)   
+             
+  *  [Test Case](https://github.com/ucdevinda123/design-patterns/blob/master/src/test/java/com/designpatterns/dev/behavioral/momento/)   
+    
+
+
  #### 2.)State Pattern : 
  The state pattern is a behavioral software design pattern that allows an object to alter its behavior when its internal state changes.
 
@@ -23,6 +30,12 @@ Implementation of design patterns (Implementations using Java and Kotlin)
          
   ![SelectionTool](https://user-images.githubusercontent.com/4921099/118616021-e614f080-b7f3-11eb-89e6-144c0afc89b2.PNG)
   
+      
+  *  [Java Implementation](https://github.com/ucdevinda123/design-patterns/blob/main/src/main/java/com/designpatterns/dev/behavioral/state/java/)   
+  *  [Kotlin Implementation](https://github.com/ucdevinda123/design-patterns/blob/main/src/main/java/com/designpatterns/dev/behavioral/state/kotlin/)   
+             
+  *  [Test Case](https://github.com/ucdevinda123/design-patterns/blob/master/src/test/java/com/designpatterns/dev/behavioral/state/)   
+    
   
  #### 3.)Chain of responsibility Pattern : 
    A source of command objects and a series of processing objects.It allows to crete chain of jobs
@@ -37,10 +50,15 @@ Implementation of design patterns (Implementations using Java and Kotlin)
              At any given time user remove operations from the chain. And you don't need to update Webserver class.
              This proves  SOLID
                           O -> Open for extention (Classes should open for extention and close for modifications) this is a great example for tha
-    
+  
  ![image (1)](https://user-images.githubusercontent.com/4921099/123273354-28d59100-d535-11eb-9855-999d909e2f13.png)
  
- 
+     
+  *  [Java Implementation](https://github.com/ucdevinda123/design-patterns/blob/main/src/main/java/com/designpatterns/dev/behavioral/chainofresponsibility/java/)   
+  *  [Kotlin Implementation](https://github.com/ucdevinda123/design-patterns/blob/main/src/main/java/com/designpatterns/dev/behavioral/chainofresponsibility/kotlin/)   
+             
+  *  [Test Case](https://github.com/ucdevinda123/design-patterns/blob/master/src/test/java/com/designpatterns/dev/behavioral/chainofresponsibility/)   
+    
  
  #### 4.)Visitor Pattern 
    Way of separating an algorithm from an object structure on which it operates.
