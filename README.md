@@ -19,4 +19,18 @@ Implementation of design patterns (Implementations using Java and Kotlin)
          SelectionTool - Concrete implementation
          
   ![SelectionTool](https://user-images.githubusercontent.com/4921099/118616021-e614f080-b7f3-11eb-89e6-144c0afc89b2.PNG)
-       
+  
+  
+3.)Chain of responsibility Pattern : A source of command objects and a series of processing objects. It allows to crete chain of jobs
+   here I took the use case of a web server
+    
+    Design Diagram of the implementation  - In theoritacal implementation we can say
+            Webserver invokes following operations
+            
+            Chain of operations :
+             Auth -> Logging -> Compression
+              
+             At any given time user remove operations from the chain. And you don't need to update Webserver class.
+             This proves  SOLID
+                          O -> Open for extention (Classes should open for extention and close for modifications) this is a great example for tha
+ 
