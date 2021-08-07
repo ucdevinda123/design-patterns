@@ -1,4 +1,4 @@
-# design-patterns
+# design-patterns <a href="https://www.codefactor.io/repository/github/ucdevinda123/design-patterns"><img src="https://www.codefactor.io/repository/github/ucdevinda123/design-patterns/badge" alt="CodeFactor" /></a>
 Implementation of design patterns (Implementations using Java and Kotlin)
 
  #### 1.)Momento Pattern : 
